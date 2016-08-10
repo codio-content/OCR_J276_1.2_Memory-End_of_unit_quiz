@@ -1,0 +1,29 @@
+{
+ "sections": [
+  {
+   "id": "e78846c1-fa6a-32dd-735f-b5f2a2ed2221",
+   "title": "End of unit quiz",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/End-of-unit-quiz-e788.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "9a62b7d5-b04d-cbad-7b2f-7ef6ea5c4696",
+   "title": "Section 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Section-2-9a62.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}

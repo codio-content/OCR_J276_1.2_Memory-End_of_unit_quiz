@@ -1,0 +1,158 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2426816383",
+  "source": {
+   "name": "RAM",
+   "showName": false,
+   "instructions": "**Which of these statements is not true about RAM**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "Allows fast access to instructions for the CPU",
+     "correct": false,
+     "_id": "406888ff-2a39-9d16-7602-0f93b2a0e6c5"
+    },
+    {
+     "answer": "When the power is turned off the contents of RAM are emptied",
+     "correct": false,
+     "_id": "4901cb9d-e1f9-8d8d-7fe0-c189c21115ca"
+    },
+    {
+     "correct": true,
+     "answer": "The contents of RAM cannot be changed",
+     "_id": "c1061f9b-8fa4-6ab4-0059-995361de459e"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2061527212",
+  "source": {
+   "name": "ROM",
+   "showName": false,
+   "instructions": "**Which one of the following would not be contained in ROM**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "BIOS",
+     "correct": false,
+     "_id": "32c365ea-9734-5bca-d8cf-b44720a754d8"
+    },
+    {
+     "correct": true,
+     "answer": "Word Processor",
+     "_id": "879162f3-8799-f4e4-3d2d-3ebde249bc48"
+    },
+    {
+     "answer": "Bootstrap loader",
+     "correct": false,
+     "_id": "f9d86433-d6fc-e65b-1c99-f43436a5bc26"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-667674512",
+  "source": {
+   "name": "RAMorROM",
+   "showName": false,
+   "instructions": "**Select whether these statements refer to either RAM or ROM:**",
+   "points": "1",
+   "showValues": true,
+   "text": "Contains instructions to boot up the operating system: <<<ROM>>>\nContains currently running programs and data: <<<RAM>>>\nCannot be changed: <<<ROM>>>\nIs a type of Volatile memory: <<<RAM>>>",
+   "tokens": {
+    "blank": [
+     "ROM",
+     "RAM",
+     "ROM",
+     "RAM"
+    ],
+    "text": [
+     "Contains instructions to boot up the operating system: ",
+     0,
+     "\nContains currently running programs and data: ",
+     0,
+     "\nCannot be changed: ",
+     0,
+     "\nIs a type of Volatile memory: ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3679833443",
+  "source": {
+   "name": "Flash",
+   "showName": false,
+   "instructions": "**Which one of the following storage devices does not use flash memory**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "USB stick",
+     "correct": false,
+     "_id": "3483ace4-b126-3fba-6f56-dd716c4690bb"
+    },
+    {
+     "answer": "SD card",
+     "correct": false,
+     "_id": "2334587f-1952-f300-b9b2-e8f17e5691ff"
+    },
+    {
+     "answer": "portable hard drive",
+     "correct": false,
+     "_id": "2c8138db-6e7a-662b-050c-b8090926478f"
+    },
+    {
+     "correct": true,
+     "answer": "magnetic hard drive",
+     "_id": "b47f5329-0b1a-f0f8-bdb1-f7bbba40a843"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-617919022",
+  "source": {
+   "name": "VirtualMemory",
+   "showName": false,
+   "instructions": "**Which of the following is not true about virtual memory**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "It is used when RAM is full",
+     "correct": false,
+     "_id": "fc12d81c-d6df-7587-6ff6-4d2723c08fbd"
+    },
+    {
+     "answer": "Hard drive is used to act as RAM",
+     "correct": false,
+     "_id": "6d186629-f60f-402f-cf83-da477274d030"
+    },
+    {
+     "correct": true,
+     "answer": "Accessing the hard drive for instructions is quicker than RAM",
+     "_id": "9415b8a9-2c33-cf6d-86d3-d64aab7f9ca0"
+    },
+    {
+     "answer": "Prevents the computer from crashing when RAM is full",
+     "correct": false,
+     "_id": "8a7330f8-62e4-c358-2299-a10dedee7906"
+    }
+   ]
+  }
+ }
+]
