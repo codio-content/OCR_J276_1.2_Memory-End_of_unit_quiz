@@ -1,158 +1,122 @@
 [
  {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-2426816383",
-  "source": {
-   "name": "RAM",
-   "showName": false,
-   "instructions": "**Which of these statements is not true about RAM**",
-   "points": "1",
-   "incorrectPoints": "0",
-   "multipleResponse": false,
-   "answers": [
-    {
-     "answer": "Allows fast access to instructions for the CPU",
-     "correct": false,
-     "_id": "406888ff-2a39-9d16-7602-0f93b2a0e6c5"
-    },
-    {
-     "answer": "When the power is turned off the contents of RAM are emptied",
-     "correct": false,
-     "_id": "4901cb9d-e1f9-8d8d-7fe0-c189c21115ca"
-    },
-    {
-     "correct": true,
-     "answer": "The contents of RAM cannot be changed",
-     "_id": "c1061f9b-8fa4-6ab4-0059-995361de459e"
-    }
-   ]
-  }
- },
- {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-2061527212",
-  "source": {
-   "name": "ROM",
-   "showName": false,
-   "instructions": "**Which one of the following would not be contained in ROM**",
-   "points": "1",
-   "incorrectPoints": "0",
-   "multipleResponse": false,
-   "answers": [
-    {
-     "answer": "BIOS",
-     "correct": false,
-     "_id": "32c365ea-9734-5bca-d8cf-b44720a754d8"
-    },
-    {
-     "correct": true,
-     "answer": "Word Processor",
-     "_id": "879162f3-8799-f4e4-3d2d-3ebde249bc48"
-    },
-    {
-     "answer": "Bootstrap loader",
-     "correct": false,
-     "_id": "f9d86433-d6fc-e65b-1c99-f43436a5bc26"
-    }
-   ]
-  }
- },
- {
   "type": "fill-in-the-blanks",
-  "taskId": "fill-in-the-blanks-667674512",
+  "taskId": "fill-in-the-blanks-1312023849",
   "source": {
-   "name": "RAMorROM",
+   "name": "Question 1",
    "showName": false,
-   "instructions": "**Select whether these statements refer to either RAM or ROM:**",
+   "instructions": "**When RAM is full**\n*Enter either RAM or ROM as the answer to the following statements*",
    "points": "1",
-   "showValues": true,
-   "text": "Contains instructions to boot up the operating system: <<<ROM>>>\nContains currently running programs and data: <<<RAM>>>\nCannot be changed: <<<ROM>>>\nIs a type of Volatile memory: <<<RAM>>>",
+   "showValues": false,
+   "text": "Data can be written to this memory: <<<RAM>>>\nThis memory is non-volatile: <<<ROM>>>\nData cannot be written to this memory: <<<ROM>>>\nThis memory is volatile: <<<RAM>>>\nThe contents of this memory are constantly changing: <<<RAM>>>\n",
    "tokens": {
     "blank": [
-     "ROM",
      "RAM",
      "ROM",
+     "ROM",
+     "RAM",
      "RAM"
     ],
     "text": [
-     "Contains instructions to boot up the operating system: ",
+     "Data can be written to this memory: ",
      0,
-     "\nContains currently running programs and data: ",
+     "\nThis memory is non-volatile: ",
      0,
-     "\nCannot be changed: ",
+     "\nData cannot be written to this memory: ",
      0,
-     "\nIs a type of Volatile memory: ",
-     0
+     "\nThis memory is volatile: ",
+     0,
+     "\nThe contents of this memory are constantly changing: ",
+     0,
+     "\n"
     ]
    }
   }
  },
  {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-3679833443",
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3630039614",
   "source": {
-   "name": "Flash",
-   "showName": false,
-   "instructions": "**Which one of the following storage devices does not use flash memory**",
+   "name": "Question 2: ",
+   "showName": true,
+   "instructions": "**Select correct answers from the available list**",
    "points": "1",
-   "incorrectPoints": "0",
-   "multipleResponse": false,
-   "answers": [
-    {
-     "answer": "USB stick",
-     "correct": false,
-     "_id": "3483ace4-b126-3fba-6f56-dd716c4690bb"
-    },
-    {
-     "answer": "SD card",
-     "correct": false,
-     "_id": "2334587f-1952-f300-b9b2-e8f17e5691ff"
-    },
-    {
-     "answer": "portable hard drive",
-     "correct": false,
-     "_id": "2c8138db-6e7a-662b-050c-b8090926478f"
-    },
-    {
-     "correct": true,
-     "answer": "magnetic hard drive",
-     "_id": "b47f5329-0b1a-f0f8-bdb1-f7bbba40a843"
-    }
-   ]
+   "showValues": true,
+   "text": "When RAM is full the <<<operating>>> system uses an area of the hard disk drive as <<<virtual>>> memory. \n\nThe <<<least>>> used instructions and data are swapped <<<out>>> to this area. When they are needed they are swapped back <<<into>>> the <<<RAM>>> at the expense of other data.\n\nThe advantages is that programs do not have to be <<<closed>>> but it takes longer to access the instructions from <<<virtual memory>>> than it does from <<<RAM>>>. \n\nOften the hard disk drive has to operate all of the time. This is noisy and is called disk <<<thrashing>>>.",
+   "tokens": {
+    "blank": [
+     "operating",
+     "virtual",
+     "least",
+     "out",
+     "into",
+     "RAM",
+     "closed",
+     "virtual memory",
+     "RAM",
+     "thrashing"
+    ],
+    "text": [
+     "When RAM is full the ",
+     0,
+     " system uses an area of the hard disk drive as ",
+     0,
+     " memory. \n\nThe ",
+     0,
+     " used instructions and data are swapped ",
+     0,
+     " to this area. When they are needed they are swapped back ",
+     0,
+     " the ",
+     0,
+     " at the expense of other data.\n\nThe advantages is that programs do not have to be ",
+     0,
+     " but it takes longer to access the instructions from ",
+     0,
+     " than it does from ",
+     0,
+     ". \n\nOften the hard disk drive has to operate all of the time. This is noisy and is called disk ",
+     0,
+     "."
+    ]
+   }
   }
  },
  {
-  "type": "multiple-choice",
-  "taskId": "multiple-choice-617919022",
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-76771324",
   "source": {
-   "name": "VirtualMemory",
+   "name": "Question 3",
    "showName": false,
-   "instructions": "**Which of the following is not true about virtual memory**",
+   "instructions": "**Select correct answers from the available list**",
    "points": "1",
-   "incorrectPoints": "0",
-   "multipleResponse": false,
-   "answers": [
-    {
-     "answer": "It is used when RAM is full",
-     "correct": false,
-     "_id": "fc12d81c-d6df-7587-6ff6-4d2723c08fbd"
-    },
-    {
-     "answer": "Hard drive is used to act as RAM",
-     "correct": false,
-     "_id": "6d186629-f60f-402f-cf83-da477274d030"
-    },
-    {
-     "correct": true,
-     "answer": "Accessing the hard drive for instructions is quicker than RAM",
-     "_id": "9415b8a9-2c33-cf6d-86d3-d64aab7f9ca0"
-    },
-    {
-     "answer": "Prevents the computer from crashing when RAM is full",
-     "correct": false,
-     "_id": "8a7330f8-62e4-c358-2299-a10dedee7906"
-    }
-   ]
+   "showValues": true,
+   "text": "Flash memory resembles <<<ROM>>> in that it is non-volatile and <<<RAM>>> because it can be constantly erased and <<<written>>> to. \n\nIt is made of <<<transistors>>> which retain their charge when the power is turned off. \n\nFlash memory is <<<slower>>> than RAM is used in <<<secondary>>> storage devices.",
+   "tokens": {
+    "blank": [
+     "ROM",
+     "RAM",
+     "written",
+     "transistors",
+     "slower",
+     "secondary"
+    ],
+    "text": [
+     "Flash memory resembles ",
+     0,
+     " in that it is non-volatile and ",
+     0,
+     " because it can be constantly erased and ",
+     0,
+     " to. \n\nIt is made of ",
+     0,
+     " which retain their charge when the power is turned off. \n\nFlash memory is ",
+     0,
+     " than RAM is used in ",
+     0,
+     " storage devices."
+    ]
+   }
   }
  }
 ]
