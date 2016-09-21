@@ -4,7 +4,7 @@
   "taskId": "fill-in-the-blanks-1312023849",
   "source": {
    "name": "Question 1",
-   "showName": false,
+   "showName": true,
    "instructions": "**When RAM is full**\n*Enter either RAM or ROM as the answer to the following statements*",
    "points": "1",
    "showValues": false,
@@ -87,7 +87,7 @@
   "taskId": "fill-in-the-blanks-76771324",
   "source": {
    "name": "Question 3",
-   "showName": false,
+   "showName": true,
    "instructions": "**Select correct answers from the available list**",
    "points": "1",
    "showValues": true,
