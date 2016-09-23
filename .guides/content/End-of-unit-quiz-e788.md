@@ -28,5 +28,5 @@ Flash memory resembles **ROM** in that it is non-volatile and **RAM** because it
 
 It is made of **transistors** which retain their charge when the power is turned off. 
 
-Flash memory is **slower** than RAM is used in **secondary** storage devices.
+Flash memory is **slower** than RAM and is used in **secondary** storage devices.
 |||

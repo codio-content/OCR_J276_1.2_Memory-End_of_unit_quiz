@@ -5,7 +5,7 @@
   "source": {
    "name": "Question 1",
    "showName": true,
-   "instructions": "**When RAM is full**\n*Enter either RAM or ROM as the answer to the following statements*",
+   "instructions": "**Enter either RAM or ROM as the answer to the following statements**",
    "points": "1",
    "showValues": false,
    "text": "Data can be written to this memory: <<<RAM>>>\nThis memory is non-volatile: <<<ROM>>>\nData cannot be written to this memory: <<<ROM>>>\nThis memory is volatile: <<<RAM>>>\nThe contents of this memory are constantly changing: <<<RAM>>>\n",
@@ -91,7 +91,7 @@
    "instructions": "**Select correct answers from the available list**",
    "points": "1",
    "showValues": true,
-   "text": "Flash memory resembles <<<ROM>>> in that it is non-volatile and <<<RAM>>> because it can be constantly erased and <<<written>>> to. \n\nIt is made of <<<transistors>>> which retain their charge when the power is turned off. \n\nFlash memory is <<<slower>>> than RAM is used in <<<secondary>>> storage devices.",
+   "text": "Flash memory resembles <<<ROM>>> in that it is non-volatile and <<<RAM>>> because it can be constantly erased and <<<written>>> to. \n\nIt is made of <<<transistors>>> which retain their charge when the power is turned off. \n\nFlash memory is <<<slower>>> than RAM and is used in <<<secondary>>> storage devices.",
    "tokens": {
     "blank": [
      "ROM",
@@ -112,7 +112,7 @@
      0,
      " which retain their charge when the power is turned off. \n\nFlash memory is ",
      0,
-     " than RAM is used in ",
+     " than RAM and is used in ",
      0,
      " storage devices."
     ]
