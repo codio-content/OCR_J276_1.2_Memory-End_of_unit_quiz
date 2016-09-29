@@ -1,14 +1,5 @@
 Now it’s time to think carefully about what you have learned in the previous lesson
 
-{Check It!|assessment}(fill-in-the-blanks-1312023849)
-|||guidance
-# Solution
-Data can be written to this memory: **RAM**
-This memory is non-volatile: **ROM**
-Data cannot be written to this memory: **ROM**
-This memory is volatile: **RAM**
-The contents of this memory are constantly changing: **RAM**
-|||
 {Check It!|assessment}(fill-in-the-blanks-3630039614)
 |||guidance
 # Solution
